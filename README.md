@@ -64,27 +64,25 @@ Just open `frontend-todo/index.html` in your browser.
 4. Use tools like Postman to test the API endpoints.
 
 ---
-## 📂 Project Structure
----
+## 📁 Project Structure
 
 final-project/
 │
 ├── frontend-todo/
-│ ├── index.html
-│ ├── style.css
-│ └── script.js
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
 │
 ├── backend-blog/
-│ ├── db.sql
-│ ├── connection.php
-│ ├── api/
-│ │ ├── all_posts.php
-│ │ ├── post_by_id.php
-│ │ ├── user_posts.php
-│ │ ├── update_comment.php
-│ │ └── delete_post.php
+│   ├── db.sql
+│   ├── connection.php
+│   └── api/
+│       ├── all_posts.php
+│       ├── post_by_id.php
+│       ├── user_posts.php
+│       ├── update_comment.php
+│       └── delete_post.php
 
----
 
 ## 🧑‍💻 Author
 
