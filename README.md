@@ -16,6 +16,7 @@ A simple to-do list application built using:
 - Mark tasks as complete
 - Edit tasks
 - Delete tasks
+- Toggle between Light and Dark Mode
 
 **Files:**
 - `index.html`: Main HTML file
