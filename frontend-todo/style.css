@@ -1,0 +1,98 @@
+:root {
+  --bg: #ffffff;
+  --text: #111;
+  --task-bg: #f0f0f0;
+  --completed: #999;
+}
+
+body.dark {
+  --bg: #1e1e1e;
+  --text: #eee;
+  --task-bg: #333;
+  --completed: #666;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: var(--task-bg);
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li.completed span {
+  text-decoration: line-through;
+  color: var(--completed);
+}
+
+li input[type="text"] {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.task-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.task-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.task-buttons button {
+  background-color: #f44336;
+  padding: 5px;
+}
