@@ -65,6 +65,8 @@ Just open `frontend-todo/index.html` in your browser.
 
 ---
 ## 📂 Project Structure
+---
+
 final-project/
 │
 ├── frontend-todo/
@@ -88,6 +90,3 @@ final-project/
 
 Taha Toumy  
 Computer Science  
-
-## 📂 Project Structure
-
